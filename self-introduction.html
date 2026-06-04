@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自己紹介ー片倉　睦実</title>
+</head>
+<body>
+    <h1> 自己紹介</h1>
+    <h2>プロフィール</h2>
+    <p>名前：片倉睦実</p>
+    <p>年齢：29歳</p>
+    <p>出身地：神奈川県</p>
+    <p>趣味：バイクでツーリング</p>
+    <h2>好きなもの</h2>
+    <ul>
+        <li>豚汁</li>
+        <li>長崎ちゃんぽん</li>
+        <li>あんバターパン</li>
+    </ul>
+    <h2>今年の目標</h2>
+    <ol>
+        <li>エンジニアになる</li>
+        <li>楽しんで勉強をし続ける</li>
+        <li>分からないところを残さない</li>
+    </ol>
+    <h2>リンク</h2>
+    <a href="https://github.com/mutsumi-katakura/my-first-git target="_brank">=私のGitHub</a>
+<h2>好きな風景</h2>
+<img src="landscape.jpg" alt="好きな風景" width="400">
+
+<h2>お問合せ</h2>
+<form action="/submit" method="post">
+    <div>
+    <label>
+        お名前：
+        <input type="text" required>
+    </label>
+    </div>
+    <div>
+        <label>
+            お問合せ種別：
+    <select name="category">
+        <option value="">--選択してください。--</option>
+        <option value="generalinquiries">一般的なお問合せ</option>
+        <option value="request">ご意見・ご要望</option>
+    </select>
+    </label>
+    </div>
+    <div>
+        <label>
+            お問合せ内容：
+    <textarea name="message" rows 10"></textarea>
+    </label>
+    </div>
+    <button type="submit">送信する</button>
+</form>
+</body>
+</html>
